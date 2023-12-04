@@ -10,7 +10,8 @@ namespace Packt.Shared
     public partial class EmployeeTerritory
     {
         [Column(TypeName = "INT")]
-        public long EmployeeId { get; set; }
+        public int EmployeeId { get; set; }
+        [Required]
         [Column(TypeName = "nvarchar] (20")]
         public string TerritoryId { get; set; } = null!;
     }
