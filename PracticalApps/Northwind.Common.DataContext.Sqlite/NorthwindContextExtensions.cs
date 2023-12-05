@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection; // IServiceCollection
 
 namespace Packt.Shared;
 
-public static class NorthwindContextExtension
+public static class NorthwindContextExtensions
 {
     /// <summary>
     /// Adds NorthwindContext to the specified IServiceCollection. Uses the Sqlite database provider.
