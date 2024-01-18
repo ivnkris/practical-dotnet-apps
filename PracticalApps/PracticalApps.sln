@@ -5,11 +5,13 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.Sqlite", "Northwind.Common.EntityModels.Sqlite\Northwind.Common.EntityModels.Sqlite.csproj", "{01AA7ABF-22FD-4C25-B5F5-52C51DB8AA65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.Sqlite", "Northwind.Common.DataContext.Sqlite\Northwind.Common.DataContext.Sqlite.csproj", "{0CFB75AE-97AE-485C-87D6-A3C5776411A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.Sqlite", "Northwind.Common.DataContext.Sqlite\Northwind.Common.DataContext.Sqlite.csproj", "{0CFB75AE-97AE-485C-87D6-A3C5776411A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{CA936ED0-6811-4F80-B135-A46FB5F05192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{CA936ED0-6811-4F80-B135-A46FB5F05192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{E3A3929F-35F8-4B47-9316-5959D9F8F5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{E3A3929F-35F8-4B47-9316-5959D9F8F5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Web", "Northwind.Web\Northwind.Web.csproj", "{F5425F8B-0645-4132-83C0-0A5E12A57E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E3A3929F-35F8-4B47-9316-5959D9F8F5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3A3929F-35F8-4B47-9316-5959D9F8F5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3A3929F-35F8-4B47-9316-5959D9F8F5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5425F8B-0645-4132-83C0-0A5E12A57E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5425F8B-0645-4132-83C0-0A5E12A57E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5425F8B-0645-4132-83C0-0A5E12A57E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5425F8B-0645-4132-83C0-0A5E12A57E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
