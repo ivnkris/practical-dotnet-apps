@@ -18,9 +18,13 @@ public class Startup
 
         app.UseHttpsRedirection();
 
+        app.UseDefaultFiles(); // index.html, default.html, and so on
+
+        app.UseStaticFiles();
+
         app.UseEndpoints(endpoints =>
         {
-            endpoints.MapGet("/", () => "Hello World!");
+            endpoints.MapGet("/hello", () => "Hello World!");
         });
     }
 }
